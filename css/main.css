@@ -1,0 +1,637 @@
+/* 
+Sky bootstrap sass theme
+Author: ML
+Versiom: 0.1
+*/
+/*BASE - Base styles, variables, mixins,  */
+/*Font colors*/
+/*Background Colors*/
+/*showcase Area*/
+/*mixins*/
+/* line 1, D:/workspace/sass-project/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 4, D:/workspace/sass-project/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 7, D:/workspace/sass-project/scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 12, D:/workspace/sass-project/scss/base/_normalize.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 17, D:/workspace/sass-project/scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 0px 30px 0px;
+}
+
+/*Image size*/
+/* line 22, D:/workspace/sass-project/scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 25, D:/workspace/sass-project/scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 28, D:/workspace/sass-project/scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 31, D:/workspace/sass-project/scss/base/_normalize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 34, D:/workspace/sass-project/scss/base/_normalize.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 1, D:/workspace/sass-project/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 7, D:/workspace/sass-project/scss/base/_base.scss */
+a {
+  color: #7DC6CD;
+}
+
+/* line 10, D:/workspace/sass-project/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 14, D:/workspace/sass-project/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 18, D:/workspace/sass-project/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 22, D:/workspace/sass-project/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+}
+
+/*MODULES - Individual site components */
+/*Lists*/
+/* line 3, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 14, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto;
+}
+
+/* line 20, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 23, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 28, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* line 33, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-comments {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 37, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0px 5px 0px;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto !important;
+}
+
+/* line 41, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-comments li:last-of-type {
+  border-bottom: none;
+}
+
+/* line 45, D:/workspace/sass-project/scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/*Icons*/
+/* line 51, D:/workspace/sass-project/scss/modules/_typography.scss */
+.fa-primary {
+  color: #009999;
+}
+
+/* line 55, D:/workspace/sass-project/scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #009999;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/*Headings*/
+/* line 65, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a {
+  color: #004883;
+}
+
+/* line 68, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #004883;
+}
+
+/* line 72, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #004883;
+}
+
+/* line 75, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #004883;
+}
+
+/* line 79, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
+  color: #F7F7F4;
+}
+
+/* line 82, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #F7F7F4;
+}
+
+/* line 86, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
+  color: #004883;
+}
+
+/* line 89, D:/workspace/sass-project/scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #004883;
+}
+
+/*Emphasis text*/
+/* line 96, D:/workspace/sass-project/scss/modules/_typography.scss */
+.em-primary {
+  color: #004883;
+}
+
+/* line 99, D:/workspace/sass-project/scss/modules/_typography.scss */
+.em-secondary {
+  color: #009999;
+}
+
+/* line 102, D:/workspace/sass-project/scss/modules/_typography.scss */
+.em-light {
+  color: #F7F7F4;
+}
+
+/* line 105, D:/workspace/sass-project/scss/modules/_typography.scss */
+.em-dark {
+  color: #004883;
+}
+
+/*Blocks*/
+/* line 3, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 6, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 10, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 15, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-primary {
+  background: #7DC6CD;
+  color: #fff;
+}
+
+/* line 21, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #009999;
+  color: #fff;
+}
+
+/* line 27, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-light {
+  background: #F7F7F4;
+  color: #666;
+}
+
+/* line 33, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-dark {
+  background: #004883;
+  color: #fff;
+}
+
+/* line 38, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 41, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 45, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 49, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #7DC6CD;
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* line 55, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #7DC6CD;
+  padding: 10px;
+}
+
+/* line 59, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.list-img {
+  margin-right: 10px;
+}
+
+/* line 64, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 68, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 73, D:/workspace/sass-project/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/*Buttons*/
+/* line 3, D:/workspace/sass-project/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #004883;
+  color: #fff;
+  border: 2px solid #ffffff;
+  margin-top: 10px;
+}
+
+/* line 9, D:/workspace/sass-project/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #002c50;
+  border: 2px solid #ffffff;
+}
+
+/*section*/
+/* line 3, D:/workspace/sass-project/scss/modules/_section.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/photo-267961.jpeg") no-repeat bottom;
+}
+
+/* line 11, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+
+/* line 15, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-showcase h1 {
+  color: #F7F7F4;
+}
+
+/* line 18, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-showcase p {
+  color: #fff;
+}
+
+/* line 23, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #7DC6CD;
+  color: #fff;
+}
+
+/* line 27, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-secondary {
+  background: #009999;
+  color: #fff;
+}
+
+/* line 31, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-light {
+  background: #F7F7F4;
+  color: #666;
+}
+
+/* line 35, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-dark {
+  background: #004883;
+  color: #fff;
+}
+
+/*About us*/
+/* line 42, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-primary-a {
+  border-top: 4px solid #009999;
+}
+
+/* line 47, D:/workspace/sass-project/scss/modules/_section.scss */
+.section-primary-b {
+  border-bottom: 4px solid #009999;
+}
+
+/*Carousel*/
+/* line 3, D:/workspace/sass-project/scss/modules/_components.scss */
+.carousel {
+  margin: 20px;
+}
+
+/* line 7, D:/workspace/sass-project/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/*Tabs*/
+/* line 14, D:/workspace/sass-project/scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* line 19, D:/workspace/sass-project/scss/modules/_components.scss */
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #7DC6CD;
+  color: #fff;
+}
+
+/* line 23, D:/workspace/sass-project/scss/modules/_components.scss */
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-secondary .nav-tabs > li.active > a:focus {
+  background: #009999;
+  color: #fff;
+}
+
+/* line 27, D:/workspace/sass-project/scss/modules/_components.scss */
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus {
+  background: #F7F7F4;
+  color: #666;
+}
+
+/* line 31, D:/workspace/sass-project/scss/modules/_components.scss */
+.tab-dark .tab-pane, .tab-dark .nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-dark .nav-tabs > li.active > a:focus {
+  background: #004883;
+  color: #fff;
+}
+
+/*Searchbox*/
+/* line 3, D:/workspace/sass-project/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 5, D:/workspace/sass-project/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 10, D:/workspace/sass-project/scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #7DC6CD;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 19, D:/workspace/sass-project/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+
+/*LAYOUTS - Page Layout styles */
+/*Navbar*/
+/* line 3, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 11, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar a {
+  color: #004883 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 22, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #009999 !important;
+  color: #fff !important;
+}
+
+/*Footer*/
+/* line 3, D:/workspace/sass-project/scss/layouts/_footer.scss */
+.footer-main {
+  background: #004883;
+  color: #fff;
+  border-top: 5px solid #009999;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+
+/* line 9, D:/workspace/sass-project/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #fff;
+}
+
+/* line 12, D:/workspace/sass-project/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, D:/workspace/sass-project/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/*Navbar*/
+/* line 3, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 11, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar a {
+  color: #004883 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 22, D:/workspace/sass-project/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #009999 !important;
+  color: #fff !important;
+}
+
+/*Blog*/
+/* line 2, D:/workspace/sass-project/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 25px;
+}
+
+/* line 8, D:/workspace/sass-project/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 13, D:/workspace/sass-project/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 17, D:/workspace/sass-project/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+/* line 23, D:/workspace/sass-project/scss/layouts/_blog.scss */
+.post-meta i {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+/**/
+@media (max-width: 768px) {
+  /* line 4, D:/workspace/sass-project/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 8, D:/workspace/sass-project/scss/layouts/_mobile.scss */
+  .device {
+    margin: auto 0 auto;
+    display: block;
+  }
+  /* line 12, D:/workspace/sass-project/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 16, D:/workspace/sass-project/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 20, D:/workspace/sass-project/scss/layouts/_mobile.scss */
+  .footer-main h3 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
